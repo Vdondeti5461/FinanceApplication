@@ -1702,13 +1702,17 @@ body {
 }
 
 .stat-item {
-  display: flex; /* Flex layout for items */
+  display:flexbox; /* Flex layout for items */
   align-items: center; /* Vertical alignment */
-  margin-bottom: 10px; /* Space between items */
+  margin-bottom: 100px; /* Space between items */
 }
 
 .stat-item img {
-  margin-right: 10px; /* Space between icon and text */
+  margin-right: 10px;
+  border-image:10px ; 
+  height: 47px;
+  width: 100%;
+  /* Space between icon and text */
 }
 
 .stat-item p {
